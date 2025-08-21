@@ -1,47 +1,46 @@
-import {
-  defineChain,
-  getContract,
-  sendTransaction
-} from "thirdweb";
-import { installPublishedExtension } from "thirdweb/extensions/dynamic-contracts";
-import { privateKeyToAccount } from "thirdweb/wallets";
+import { defineChain, getContract, sendTransaction } from "thirdweb";
 import { createThirdwebClient } from "thirdweb";
+import { privateKeyToAccount } from "thirdweb/wallets";
 
+const PRIVATE_KEY = process.env.PRIVATE_KEY!;
+const MARKETPLACE_ADDRESS = process.env.NEXT_PUBLIC_MARKETPLACE_CONTRACT!;
+const NFT_COLLECTION_ADDRESS = "0x280CE180981aE4A49b4E2ED18569b4F48bD8091f"; // Your NFT contract
+const TOKEN_ID = 1; // The NFT you minted
+const PRICE = "0.0001"; // RBTC
 
-const privateKey = process.env.PRIVATE_KEY;
-const marketplaceAddress = process.env.NEXT_PUBLIC_MARKETPLACE_CONTRACT;
+if (!PRIVATE_KEY || !MARKETPLACE_ADDRESS) throw new Error("Check .env variables");
 
-if (!privateKey || !marketplaceAddress) {
-  throw new Error("Check your .env");
-}
+// 1️⃣ Create client and account
+const client = createThirdwebClient({ secretKey: process.env.THIRDWEB_SECRET_KEY || "" });
+const account = privateKeyToAccount({ client, privateKey: PRIVATE_KEY });
 
-const client = createThirdwebClient({
- secretKey: process.env.THIRDWEB_SECRET_KEY || '',
-});
+// 2️⃣ Define Rootstock Testnet
+const rootstockTestnet = defineChain(31);
 
-
-const account = privateKeyToAccount({
-  client,
-  privateKey,
-});
-
-
-const rootstockTestnet = defineChain(31); // Rootstock Testnet (Chain ID 31)
-
-const marketContract = getContract({
+// 3️⃣ Connect to your marketplace contract
+const marketplaceContract = getContract({
   client,
   chain: rootstockTestnet,
-  address: marketplaceAddress.toLowerCase(),
+  address: MARKETPLACE_ADDRESS.toLowerCase(),
 });
 
-// Create the transaction
-const transaction = installPublishedExtension({
-  account,
-  contract: marketContract,
-  extensionName: "DirectListingsLogic",
+// 4️⃣ Optional: Approve marketplace to transfer your NFT
+const nftContract = getContract({
+  client,
+  chain: rootstockTestnet,
+  address: NFT_COLLECTION_ADDRESS.toLowerCase(),
 });
 
-// Send the transaction
-sendTransaction({ transaction, account }).then((tx) => {
-  console.log(tx);
+await nftContract.erc721.setApprovalForAll(marketplaceContract.getAddress(), true);
+console.log("Marketplace approved to transfer NFT");
+
+// 5️⃣ Create the listing
+const listingTx = await marketplaceContract.direct.createListing({
+  assetContractAddress: NFT_COLLECTION_ADDRESS,
+  tokenId: TOKEN_ID,
+  pricePerToken: PRICE,
+  currencyContractAddress: "0x0000000000000000000000000000000000000000", // Native rBTC
+  quantity: 1,
 });
+
+console.log("Listing created!", listingTx);

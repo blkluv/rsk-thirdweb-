@@ -6,7 +6,7 @@ import { defineChain } from "thirdweb/chains";
 export const rootstockTestnet = defineChain({
   id: 31,
   name: "Rootstock Testnet",
-  rpc: "https://rpc.testnet.rootstock.io/3Lpuhd84xwSQ64qzsFmx6dZmIdfYOH-T",
+  rpc: "https://rpc.testnet.rootstock.io/Apcce2pZEDUdCVk5AxgmoJW8J5jM0v-T",
   nativeCurrency: {
     name: "rBTC",
     symbol: "rBTC",
