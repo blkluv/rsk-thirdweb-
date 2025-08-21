@@ -18,28 +18,28 @@ export default function Footer(): JSX.Element {
           rel="noreferrer noopener"
           className="hover:opacity-80 transition"
         >
-          <li>About Rootstock Labs</li>
+          <li>RNT.SOCIAL</li>
         </a>
         <a
-          href="https://rootstock.io/contact/"
+          href="https://rnt.social"
           target="_blank"
           rel="noreferrer noopener"
           className="hover:opacity-80 transition"
         >
-          <li>Help</li>
+          <li>HELP</li>
         </a>
         <a
-          href="https://dev.rootstock.io/"
+          href="https://rnt.social/activity"
           target="_blank"
           rel="noreferrer noopener"
           className="hover:opacity-80 transition"
         >
-          <li>Documentation</li>
+          <li>DOCS</li>
         </a>
       </ul>
       <ul className="flex gap-6">
         <a
-          href="https://twitter.com/rootstock_io"
+          href="https://rnt.social/blog"
           target="_blank"
           rel="noreferrer noopener"
           className="hover:opacity-80 transition"
