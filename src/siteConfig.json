@@ -30,11 +30,22 @@
   ],
 "customLinks": [
       {
-      "title": "Who is SKCR?",
-      "url": "https://www.tiktok.com/@sk_commercial_realty/video/7291026520980671786",
-      "video": "/who.mp4",
+      "title": "What is NeBruh?",
+      "url": "https://www.tiktok.com/@nebruhtv",
+      "video": "/promo.mp4",
       "color": "base",
       "aspectRatio": "9:16"
+    },
+        {
+      "title": "🔌 NeBruh Telegram",
+      "description": "Subscribe and promote your products or services in the Telegram channel for your city. Get real time feedback, connect with your local audience, and grow your business with NeBruh Market.",
+      "url": "https://t.me/nebruhtv",
+      "image": "/nebruh-tv.jpg",
+      "imageAlt": "NeBruh TV Telegram Channel",
+      "imageDark": "/nebruh-tv.jpg",
+      "imageAltDark": "NeBruh TV Telegram Channel",
+      "color": "base",
+      "newTab": true
     },
     {
       "title": "🛍️ NeBruh Market",
@@ -44,6 +55,17 @@
       "imageAlt": "NeBruh Market - Promote your products or services in the Telegram channel for your city",
       "imageDark": "/nebruh-market.jpg",
       "imageAltDark": "NeBruh Market - Promote your products or services in the Telegram channel for your city",
+      "color": "base",
+      "newTab": true
+    },
+        {
+      "title": "📺 NeBruh TV",
+      "description": "Subscribe and promote your products or services in the Telegram channel for your city. Get real time feedback, connect with your local audience, and grow your business with NeBruh Market.",
+      "url": "https://tv.nebruh.com",
+      "image": "/nebruh-tv-pic.jpg",
+      "imageAlt": "NeBruh TV",
+      "imageDark": "/nebruh-tv-pic.jpg",
+      "imageAltDark": "NeBruh TV",
       "color": "base",
       "newTab": true
     },
