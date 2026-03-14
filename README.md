@@ -1,109 +1,243 @@
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/rsksmart/rsk-thirdweb-marketplace/badge)](https://scorecard.dev/viewer/?uri=github.com/rsksmart/rsk-thirdweb-marketplace)
-[![CodeQL](https://github.com/rsksmart/rsk-thirdweb-marketplace/workflows/CodeQL/badge.svg)](https://github.com/rsksmart/rsk-thirdweb-marketplace/actions?query=workflow%3ACodeQL)
+# LinkTower
 
-<img src="rootstock-logo.png" alt="RSK Logo" style="width:100%; height: auto;" />
+Linktower is like Linktree but better, free, and open-source, featuring custom icons, image carousels, looping video support, and more. Build your own link in bio page, portfolio, blog, or simple landing page with LinkTower.
 
-# Rootstock NFT Marketplace
+## ✨ Features
 
-NFT marketplace built on Rootstock using thirdweb.
+- **Icon Support**: Hundreds of icons from Iconify plus custom local SVGs
+- **Video Support**: Embed looping videos (MP4) in custom links for portfolio showcases
+- **File Downloads**: Support for downloadable assets with custom styling
+- **Contact Form**: Integrated contact form using [Web3Forms](https://web3forms.com)
+- **Customizable Themes**: Premade themes for light and dark mode
+- **Optional Blog**: Full-featured blog with custom OpenGraph images per post
+- **RSS & Sitemap**: Automatic generation for SEO
 
-## Features
+## 🚀 Getting started
 
-- NFT listing grid with responsive layout and loading skeletons
-- Detailed NFT view with listing information
-- Buy and cancel functionality powered by thirdweb's marketplace extensions
-
-Built using the [thirdweb Marketplace SDK](https://portal.thirdweb.com/references/typescript/v5/marketplace), which provides a clean API surface for marketplace operations, allowing us to focus on the user experience rather than low-level smart contract calls.
-
-## Installation & Development
-
-1. **Clone and setup**:
-   ```sh
-   git clone https://github.com/rsksmart/rsk-thirdweb-marketplace.git
-   cd rsk-thirdweb-marketplace
-   bun install
-   ```
-
-2. **Configure environment**:
-   Rename a `.env.example` file in the root directory using `mv .env.example .env.local` and follow the guide to replace the needed variables.
-
-   > **⚠️ IMPORTANT**: When using Rootstock Testnet, ensure that `NEXT_PUBLIC_MARKETPLACE_CONTRACT` is in lowercase format. Rootstock testnet addresses are not checksummed, so the contract address must be lowercase to work properly.
-
-
-3. **Start development server**:
-   ```sh
-   bun run dev
-   ```
-
-4. **Access the application**: Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Installation & Development](#installation--development)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Support](#support)
-
-## Overview
-
-The NFT Marketplace consists of two main processes:
-
-1. **Buy an NFT**: Users can buy NFTs connecting their wallets. Once the users sign the buy transaction and pay for the NFT and gas costs, they own the NFT.
-2. **Sell an NFT**: Users can list their NFTs and establish the price they want for them individually. To list an NFT, they must specified the address of the ERC1155 NFT representation on the Rootstock (RSK) network, the token ID and the price.
-
-## Technologies Used
-
-- **Thirdweb Marketplace V3**: [Thirdweb Documentation](https://thirdweb.com/thirdweb.eth/MarketplaceV3)
-- **Thirdweb TS SDK**: [Thirdweb Github](https://github.com/thirdweb-dev/js/tree/main#readme)
-
-
-## Project Structure
-
-```
-├── app/
-│   ├── assets/
-│   ├── utils/
-│   ├── config.ts
-│   ├── favicon.ico
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   ├── footer/
-│   ├── icons/
-│   ├── navbar/
-│   ├── ui/
-│   ├── NFTDetailSheet.tsx
-│   ├── NFTCard.tsx
-│   ├── NFTGrid.tsx
-│   ├── NFTSkeleton.tsx
-│   └── SellSheet.tsx
+Run this in your terminal:
+```bash
+git clone github.com/mitchell-wallace/LinkTower
+cd LinkTower
+pnpm install
+pnpm run dev
 ```
 
-## Usage
+To use the contact form, you will need to get an access key from [Web3Forms](https://web3forms.com). Add the access key to the `siteConfig.json` file.
 
-1. **Sell an NFT**: Navigate to the Sell tab, fill out the form, and submit to list an NFT on the marketplace.
-2. **Buy an NFT**: Click on the NFT you are interested in, connect your wallet, click on Buy, sign the transaction and enjoy your NFT.
+## 🧞 Commands
 
-## Contributing
+All commands are run from the root of the project, from a terminal:
 
-We welcome contributions from the community. Please fork the repository and submit pull requests with your changes. Ensure your code adheres to the project's main objective.
+|| Command           | Action                                       |
+|| :---------------- | :------------------------------------------- |
+|| `pnpm install`     | Installs dependencies                        |
+|| `pnpm run dev`     | Starts local dev server at `localhost:3030`  |
+|| `pnpm run build`   | Build your production site to `./dist/`      |
+|| `pnpm run preview` | Preview your build locally, before deploying |
 
-## Support
+## 🧪 Testing
 
-For any questions or support, please open an issue on the repository or reach out to the maintainers.
+### Unit tests (Vitest)
 
-# Disclaimer
+Run the unit test suite using Vitest:
 
-The software provided in this GitHub repository is offered "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+```bash
+pnpm test
+```
 
-- **Testing:** The software has not undergone testing of any kind, and its functionality, accuracy, reliability, and suitability for any purpose are not guaranteed.
-- **Use at Your Own Risk:** The user assumes all risks associated with the use of this software. The author(s) of this software shall not be held liable for any damages, including but not limited to direct, indirect, incidental, special, consequential, or punitive damages arising out of the use of or inability to use this software, even if advised of the possibility of such damages.
-- **No Liability:** The author(s) of this software are not liable for any loss or damage, including without limitation, any loss of profits, business interruption, loss of information or data, or other pecuniary loss arising out of the use of or inability to use this software.
-- **Sole Responsibility:** The user acknowledges that they are solely responsible for the outcome of the use of this software, including any decisions made or actions taken based on the software's output or functionality.
-- **No Endorsement:** Mention of any specific product, service, or organization does not constitute or imply endorsement by the author(s) of this software.
-- **Modification and Distribution:** This software may be modified and distributed under the terms of the license provided with the software. By modifying or distributing this software, you agree to be bound by the terms of the license.
-- **Assumption of Risk:** By using this software, the user acknowledges and agrees that they have read, understood, and accepted the terms of this disclaimer and assumes all risks associated with the use of this software.
+To run tests once in headless mode (useful for CI):
+
+```bash
+pnpm test:run
+```
+
+### End-to-end tests (Playwright)
+
+The Playwright suite exercises the homepage, contact form, and blog archive using a dedicated test build of the site.
+
+Run all e2e tests:
+
+```bash
+pnpm exec playwright test --reporter=list
+```
+
+This will:
+
+- Build a test variant of the site via `pnpm run build:test` (wired through Playwright's `webServer` config)
+- Use `src/siteConfig-test.json` instead of `src/siteConfig.json`
+- Use the `blog-test` collection in `src/content/blog-test/` (with Alpha/Beta/Gamma/Delta/Epsilon posts) instead of your real `src/content/blog/`
+- Start `astro preview` for the test build on `http://localhost:4322` and run the browser tests against it
+
+Your real content and configuration are never modified as part of the e2e test run.
+
+If you have not installed Playwright browsers yet, run:
+
+```bash
+pnpm exec playwright install
+```
+
+## 🎨 Customization
+
+### Color Variants
+
+LinkTower supports six color variants, each with solid and gradient versions:
+
+- **base**: Default theme colors
+- **primary**: Dark blue accent
+- **secondary**: Peach/coral accent
+- **neutral**: Neutral gray tones
+
+### Custom Links
+
+Custom links support several display modes:
+
+#### Basic Link
+```json
+{
+  "id": "unique-id",
+  "title": "My Link",
+  "description": "Optional description",
+  "url": "https://example.com",
+  "icon": "link",
+  "color": "primary"
+}
+```
+
+#### Link with Image
+```json
+{
+  "id": "unique-id",
+  "title": "My Project",
+  "url": "https://example.com",
+  "image": "project-screenshot.png",
+  "imageAlt": "Screenshot of my project",
+  "color": "secondary"
+}
+```
+
+#### Link with Video
+Videos autoplay silently on loop (like animated GIFs). **Only MP4 format is supported** for cross-browser compatibility.
+
+```json
+{
+  "id": "unique-id",
+  "title": "Demo Video",
+  "url": "https://example.com",
+  "video": "/demo.mp4",
+  "icon": "play",
+  "color": "neutral"
+}
+```
+
+**Note**: Videos should be optimized for web (keep file sizes small). They will display at 3:2 aspect ratio by default.
+
+#### External Link (New Tab)
+```json
+{
+  "id": "unique-id",
+  "title": "External Resource",
+  "url": "https://example.com",
+  "newTab": true,
+  "color": "primary"
+}
+```
+
+Links with `newTab: true` display an external link icon instead of a chevron and open in a new tab.
+
+#### Download Link
+```json
+{
+  "id": "unique-id",
+  "title": "Download Resume",
+  "url": "/resume.pdf",
+  "icon": "download",
+  "color": "neutral"
+}
+```
+
+Files in the `/public` directory can be linked directly for downloads.
+
+### Icon Links
+
+Icon links appear as circular buttons and support all color variants:
+
+```json
+{
+  "id": "unique-id",
+  "icon": "github",
+  "url": "https://github.com/username",
+  "color": "primary"
+}
+```
+
+### Blog Post Action Buttons
+
+Add interactive buttons at the top of blog posts for demos, repositories, etc. Define them in the post frontmatter:
+
+```yaml
+---
+title: My Project Post
+description: A cool project
+publicationDate: 2025-01-01
+actionButtons:
+  - text: View on GitHub
+    url: https://github.com/username/repo
+    newTab: true
+  - text: Live Demo
+    url: https://demo.example.com
+    newTab: true
+---
+```
+
+Action buttons are:
+- Half-width on large screens, full-width on mobile
+- Styled with the secondary color theme
+- Show external link or chevron icon based on `newTab` setting
+
+## 👀 Custom Favicon
+
+To set up favicons for different devices, you can use [RealFaviconGenerator](https://realfavicongenerator.net/). Download the generated files and place them in the `public` folder, and update the `Favicons.astro` file with the new file names using the snippet generated by the website.
+
+## 🖼️ Custom Icons
+
+LinkTower uses [astro-icon](https://www.npmjs.com/package/astro-icon) for icons, integrating with the [Iconify](https://icon-sets.iconify.design/) collection and supporting local SVGs.
+
+### Local SVG Icons
+
+You can use any SVGs as icons for your site. To do so, simply place custom SVGs in `src/icons/`. SVGs in this folder are available as icons using the filename (without `.svg`).
+
+For example, if you have `src/icons/mylogo.svg`, use it like this:
+
+```json
+{
+  "icon": "mylogo"
+}
+```
+
+When adding new icons you will need to restart the Astro dev server for the icon to be available.
+
+### Adding Additional Icons from Iconify
+
+You can install additional icons from [Iconify](https://icon-sets.iconify.design/) by running `pnpm install @iconify-json/[icon-set-name]`. For example, to install Tabler icons, run the following:
+
+```bash
+pnpm install @iconify-json/tabler
+```
+
+Then use it like this:
+
+```json
+{
+  "icon": "tabler:a-b"
+}
+```
+
+Whenever you add new icons to `src/siteConfig.json`, restart the Astro dev server for icon to be available.
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+## Attributions
+
+LinkTower is a portfolio-focused personal link hub built with Astro, forked from [Treelink](https://github.com/trevortylerlee/treelink) with enhanced features for developers and creatives.

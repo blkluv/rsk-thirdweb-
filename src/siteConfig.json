@@ -1,0 +1,73 @@
+{
+  "name": "NeBruh",
+  "bio": "Welcome to the USA NeBruhood where we love thy NeBruh. Tap into your city for real time updates, local connections, exclusive deals from our Marketplace, and watch our TV chat all in one open place the city can see. Subscribe to our Marketplace to promote your products or services across all NeBruh TikTok channels and TV, powered by our free city based TikTok AR Effect podcasts.",
+  "profilePicture": "/profile-picture.jpg",
+  "url": "https://nebruh.com",
+  "isBlogDisplayed": true,
+  "blogHomePostLimit": 3,
+  "contactFormEnabled": true,
+  "web3FormsAccessKey": "1dff14ec-f8b0-492e-ae29-4594489de220",
+  "umamiWebsiteId": "dd667d9f-f9cd-4b59-8c17-c9681858bad7",
+  "iconLinks": [
+    {
+      "id": "1728534577186",
+      "icon": "tiktok",
+      "url": "https://www.tiktok.com/@nebruhtv",
+      "color": "base"
+    },
+    {
+      "id": "1728534577187",
+      "icon": "telegram",
+      "url": "https://t.me/nebruhtv",
+      "color": "base"
+    },
+    {
+      "id": "1728534577188",
+      "icon": "youtube",
+      "url": "https://youtube.com/@nebruhtv",
+      "color": "base"
+    }
+  ],
+"customLinks": [
+      {
+      "title": "Who is SKCR?",
+      "url": "https://www.tiktok.com/@sk_commercial_realty/video/7291026520980671786",
+      "video": "/who.mp4",
+      "color": "base",
+      "aspectRatio": "9:16"
+    },
+    {
+      "title": "🛍️ NeBruh Market",
+      "description": "Subscribe and promote your products or services in the Telegram channel for your city. Get real time feedback, connect with your local audience, and grow your business with NeBruh Market.",
+      "url": "https://market.nebruh.com",
+      "image": "/nebruh-market.jpg",
+      "imageAlt": "NeBruh Market - Promote your products or services in the Telegram channel for your city",
+      "imageDark": "/nebruh-market.jpg",
+      "imageAltDark": "NeBruh Market - Promote your products or services in the Telegram channel for your city",
+      "color": "base",
+      "newTab": true
+    },
+    {
+      "title": "🍔 ATL Food",
+      "description": "Promote your foodie services with our ATL5D FOOD TikTok AR Effect Podcast.",
+      "url": "https://www.tiktok.com/effect/ATL5D-FOOD-4018539106?is_from_webapp=1&sender_device=pc",
+      "image": "/atl-food.jpg",
+      "imageAlt": "ATL Food",
+      "imageDark": "/atl-food.jpg",
+      "imageAltDark": "ATL Food",
+      "color": "base",
+      "newTab": true
+    },
+    {
+      "title": "💼 ATL Jobs",
+      "description": "Promote a job opening or apply to a job opening with a video resume with our ATL5D JOBS TikTok AR Effect Podcast.",
+      "url": "https://www.tiktok.com/effect/ATL5D-JOBS-4018539106?is_from_webapp=1&sender_device=pc",
+      "image": "/atl-jobs.jpg",
+      "imageAlt": "ATL Jobs",
+      "imageDark": "/atl-jobs.jpg",
+      "imageAltDark": "ATL Jobs",
+      "color": "base",
+      "newTab": true
+    }
+  ]
+}
