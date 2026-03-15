@@ -1,88 +1,174 @@
 ---
-title: "📊 SK Commercial Realty Secures Over 65,000 Square Feet In November Leases at Circle 75 Office Park, Demonstrating Strong Demand and Seamless In-House Service Delivery"
-description: "Major transactions with VentureX, Simplicity Financial, and Phoenix Health Care total nearly $14 million in value, pushing 900 and 1100 Buildings to 91% and 93% leased respectively."
-publicationDate: 2025-12-05
+title: "🤖 The Trust Shift: How AI Is Pushing Cities Toward Open Channels, UGC, and Telegram Pay"
+description: "As AI floods the internet with synthetic content, trust is shifting to hyper-local open networks where real people, real posts, and real transactions are visible to everyone."
+publicationDate: 2026-03-14
 draft: false
 hidden: false
-category: "Leasing Success"
-tags: ["commercial real estate", "office leasing", "Circle 75", "Atlanta office market", "SK Commercial Realty", "property management", "tenant representation"]
+category: "Digital Economy"
+tags: ["AI economy", "UGC", "Telegram Pay", "hyper-local networks", "creator economy", "marketplace transparency", "NeBruh"]
 ---
 
-**Writer:** SK Commercial Realty
-**December 5, 2025** • 4 min read
+**Writer:** Wizard of Hahz  
+**March 14, 2026** • 4 min read
 
-![900 and 1100 Circle 75 Parkway with Truist Park and Battery Atlanta pedestrian bridge](/skcr-circle75-header.png)
+![NeBruh Trust Economy](/nebruh-trust-economy-header.png)
 
-## 🏢 Record Leasing Activity at Premier Atlanta Office Destination
+## 🤖 The AI Flood Is Changing the Internet
 
-**SK Commercial Realty (SKCR)** has completed three significant lease transactions at **Circle 75 Office Park**, reinforcing the full-service real estate firm's reputation for delivering exceptional results. In November alone, SKCR leased **over 65,000 square feet** in Circle 75.
+Artificial intelligence is about to flood the internet with **infinite content**.
 
-Located adjacent to Truist Park and The Battery Atlanta, Circle 75 Office Park features Class A office towers **900, 1100**, and the build-to-suit opportunity at **1200 Circle 75**. With incredible walkability to shopping, dining, and entertainment at The Battery in addition to on-site amenities like a full-service café, fitness center, conference room, and collaborative tenant areas, Circle 75 continues to attract top-tier companies seeking convenience, visibility, and high-performance space.
+AI can now generate:
 
-## 📈 November's Major Transactions
+- Images  
+- Videos  
+- Ads  
+- Product listings  
+- Influencer posts  
+- Reviews  
+- Entire websites  
 
-SKCR's most significant activity last month includes **VentureX, Simplicity Financial, and Phoenix Health Care**, three leases totaling more than **50,000 square feet**.
+This creates a new problem for society.
 
-| Tenant | Square Footage | Building | Floor |
-|--------|----------------|----------|-------|
-| **VentureX** (Coworking) | 17,664 | 1100 Building | 4th Floor |
-| **Simplicity Financial** (Wealth Planning) | 22,356 | 900 Building | 15th Floor |
-| **Phoenix Health Care** (Healthcare Management) | 10,450 | 900 Building | 14th Floor |
+People will soon struggle to know **what is real and what is synthetic**.
 
-The combined value of all three leases is nearly **$14 million**.
+When everything online can be generated instantly, trust becomes the **most valuable currency on the internet**.
 
-## 🤝 Broker Team Excellence
+## 🔍 Why People Will Only Trust UGC
 
-All three leases were brokered by SK Commercial Realty's **Tom Parker** and **Tom Kirbo**, who represented Circle 75 Office Park.
+Because of AI content saturation, people will increasingly trust only one type of media:
 
-**Tenant representation:**
-- **VentureX** — Jodi Selvey and Derek Baker with Colliers International
-- **Simplicity Financial** — Brooke Gothard and Shea Meddin with Partners Real Estate
-- **Phoenix Health Care** — Steven Barton with CBRE
+**User Generated Content (UGC).**
 
-> "We are so excited for all that's happening at Circle 75, and not just with these new leases we have coming into our 900 and 1100 buildings. With the new full-building opportunity 1200 Circle 75, plus the dual towers for The Henry, which is a mixed-use development project between SK and Goldenrod Companies, there are a lot of enticing reasons to move a business to this area, and I'm just honored to be a part of it."
->
-> **— Tom Kirbo, President of SK Commercial Realty**
+UGC has one critical advantage.
 
-## 📊 Building Performance Metrics
+It shows **real people in real places doing real things**.
 
-Following these November transactions:
-- **900 Building** (18 stories) is now **91% leased**
-- **1100 Building** (16 stories) is now **93% leased**
+Examples include:
 
-## 🏗️ Seamless In-House Service Delivery
+- A customer showing food they just bought  
+- A renter walking through a property  
+- A worker showing their job skills  
+- A creator filming an event  
+- A shopper reviewing a product  
 
-One of those enticing reasons for tenants to move into Circle 75 Office Park is the seamless integration of SKCR's in-house project management division, **SK Project Consulting**.
+UGC creates **visual proof of reality**.
 
-**VentureX** and **Phoenix Health Care** have both engaged the team to handle their full-suite renovations, totaling **almost $2 million** between the two projects. Project Consultant **Reid Schweers** is overseeing both alterations, and **SK Property Management** continues to manage both Circle 75 properties, ensuring alignment between the landlord's goals, tenant needs, and the elevated quality standards of Circle 75.
+In an AI-driven internet, proof becomes everything.
 
-## 🚀 Future Opportunities at Circle 75
+## 🌆 Hyper-Local Networks Become the Trust Layer
 
-As leasing momentum continues across the campus, Circle 75's third office opportunity, **1200 Circle 75**, remains available for companies seeking a custom-built environment. The full building can accommodate up to **250,000 square feet**, offering a rare opportunity for a tenant to create a tailored headquarters or major regional office adjacent to one of Atlanta's most vibrant mixed-use destinations.
+Global social platforms struggle with trust because content can come from **anywhere on Earth**.
 
-![Potential rendering of 1200 Circle 75, a full-building build-to-suit opportunity](/skcr-1200-circle75.png)
+Hyper-local networks solve this.
 
-Also underway between the 900 and 1100 Circle 75 buildings is **The Henry**, a two-tower mixed use development featuring luxury condos, apartments, and hotel rooms packed with amenities, in addition to street-level retail and a pedestrian bridge for tenants and Battery visitors alike.
+When communities organize around **specific cities**, people can verify:
 
-## 📍 Market Leadership
+- the location  
+- the people  
+- the businesses  
+- the events  
 
-SK Commercial Realty continues to leverage its market insight, comprehensive services, and unmatched location advantages to secure high-value results for its clients at Circle 75 Office Park and across the region.
+This is why the next generation of social networks will be **city-based open channels**.
+
+Instead of private feeds controlled by algorithms, communities gather in **transparent public channels** where everything is visible.
+
+## 🏘️ The Rise of the Open NeBruhood
+
+NeBruh organizes cities into open Telegram channels where all posts are visible to the community.
+
+Inside these channels, people share real-time UGC about:
+
+- 💼 Jobs  
+- 🏠 Housing  
+- 🛍 Marketplace products  
+- 🍔 Food reviews  
+- 🎉 Events  
+- 🎥 Creator challenges  
+
+Every post becomes **community-verifiable content**.
+
+If someone recommends a restaurant, shows a product, or posts a job opportunity, everyone can see it and respond immediately.
+
+This restores something missing from modern social media:
+
+**public accountability**.
+
+## 💳 Telegram Pay: Rewarding Good Social Behavior
+
+The next evolution of these open networks is **direct payment inside the community**.
+
+Telegram Pay allows people to send payments instantly inside chats and channels.
+
+This introduces a new economic model:
+
+Communities can **reward good behavior and valuable content**.
+
+Examples include:
+
+- A creator showing a great food review → receives tips  
+- A worker demonstrating their skill → receives job offers  
+- A small business posting a deal → receives instant orders  
+- A helpful community member sharing information → receives rewards  
+
+Instead of platforms capturing the value, **the community rewards the contributor directly**.
+
+## 🏪 Telegram as the New POS for Open Commerce
+
+In this new model, Telegram becomes more than messaging.
+
+It becomes a **Point-of-Sale system for open marketplaces**.
+
+Businesses can:
+
+- Post products
+- Take orders
+- Accept payments
+- Communicate with customers
+- Show real-time proof of service
+
+All inside the same public ecosystem.
+
+Every interaction becomes visible to the community.
+
+This creates **transparent commerce**.
+
+## 🔎 Transparency Replaces Advertising
+
+Traditional advertising relies on persuasion.
+
+But in the AI era, persuasion becomes less trustworthy.
+
+Transparency becomes more powerful.
+
+Instead of ads saying something is good, people can **see proof directly from the community**.
+
+Examples:
+
+- Food videos from real customers  
+- Job demonstrations from real workers  
+- Housing walkthroughs from real renters  
+- Product reviews filmed in real time  
+
+The community becomes the **verification system**.
+
+## ⚡ The Future: Trust-Based City Economies
+
+As AI expands, trust will shift toward networks that provide:
+
+- Real-time visibility  
+- Real people  
+- Real transactions  
+- Transparent conversations  
+
+Hyper-local open channels with UGC will become **the new infrastructure of digital trust**.
+
+Telegram Pay will enable communities to **reward value instantly**.
+
+And networks like NeBruh will organize cities into **transparent economic neighborhoods** where opportunity moves in real time.
 
 ---
 
-📍 **Learn More:** [https://skcr.com/circle-75](https://skcr.com/circle-75)  
-📞 **Contact SKCR:** (404) 252-1200
+📍 **Join the NeBruhood:**  
+ATL • CHI • LA • HOU • MIA • NYC
 
-## FAQ
-
-**Q: What is the current availability at Circle 75 Office Park?**  
-A: Following November's leases, the 900 Building is 91% leased and the 1100 Building is 93% leased. The 1200 Circle 75 full-building opportunity remains available for tenants seeking up to 250,000 square feet of custom-built space.
-
-**Q: Who handled the lease transactions?**  
-A: Tom Parker and Tom Kirbo of SK Commercial Realty represented Circle 75 Office Park in all three transactions, working with tenant representatives from Colliers International, Partners Real Estate, and CBRE.
-
-**Q: What is The Henry?**  
-A: The Henry is a two-tower mixed-use development between SK and Goldenrod Companies, featuring luxury condos, apartments, hotel rooms, street-level retail, and a pedestrian bridge connecting to The Battery.
-
-**Q: How does SK Project Consulting add value for tenants?**  
-A: SK Project Consulting provides in-house project management for tenant renovations, ensuring alignment between landlord goals, tenant needs, and quality standards—as demonstrated with nearly $2 million in renovation projects for VentureX and Phoenix Health Care.
+Because in the AI era, **trust will belong to communities that stay visible to each other.**
